@@ -1,0 +1,27 @@
+
+body{
+  background-color: rosybrown;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+}   
